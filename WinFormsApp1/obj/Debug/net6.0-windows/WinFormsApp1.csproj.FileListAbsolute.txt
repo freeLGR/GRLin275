@@ -1,0 +1,17 @@
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.sub.resources

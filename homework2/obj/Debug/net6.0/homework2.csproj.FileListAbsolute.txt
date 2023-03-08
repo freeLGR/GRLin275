@@ -1,0 +1,15 @@
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\bin\Debug\net6.0\homework2.exe
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\bin\Debug\net6.0\homework2.deps.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\bin\Debug\net6.0\homework2.runtimeconfig.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\bin\Debug\net6.0\homework2.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\bin\Debug\net6.0\homework2.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.csproj.AssemblyReference.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.GeneratedMSBuildEditorConfig.editorconfig
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.AssemblyInfoInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.AssemblyInfo.cs
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.csproj.CoreCompileInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\refint\homework2.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\homework2.genruntimeconfig.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\homework2\obj\Debug\net6.0\ref\homework2.dll

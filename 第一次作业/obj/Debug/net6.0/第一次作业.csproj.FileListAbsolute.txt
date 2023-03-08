@@ -1,0 +1,15 @@
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\bin\Debug\net6.0\第一次作业.exe
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\bin\Debug\net6.0\第一次作业.deps.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\bin\Debug\net6.0\第一次作业.runtimeconfig.json
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\bin\Debug\net6.0\第一次作业.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\bin\Debug\net6.0\第一次作业.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.csproj.AssemblyReference.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.GeneratedMSBuildEditorConfig.editorconfig
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.AssemblyInfoInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.AssemblyInfo.cs
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.csproj.CoreCompileInputs.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\refint\第一次作业.dll
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.pdb
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\第一次作业.genruntimeconfig.cache
+C:\大学本科学习资料\大二下\软件构造基础\作业\第一次作业\obj\Debug\net6.0\ref\第一次作业.dll
