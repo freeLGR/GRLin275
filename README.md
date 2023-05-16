@@ -3,9 +3,11 @@
 实验要求：Write a console program that implements a calculator, which accepts two numbers and an operator as input,  and prints out the calculation result.
 # WinFormsApp1
 同样是第一次作业，只不过是，实现的是窗体应用
+
 实验要求：Write a Windows Forms application that implements a calculator: Enter numbers in two textboxes, select the operator, click the “Calculate” button, then  the result of the calculation is displayed.
 # homework2
 实现内容:
+
 编写程序输出用户指定数据的所有素数因子。
 编程求一个整数数组的最大值、最小值、平均值和所有数组元素的和。
 用“埃氏筛法”求2~ 100以内的素数。2~ 100以内的数，先去掉2的倍数，再去掉3的倍数，再去掉4的倍数，以此类推...最后剩下的就是素数。
