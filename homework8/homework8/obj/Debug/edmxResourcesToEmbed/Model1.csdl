@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="homework8Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="details">
+    <Key>
+      <PropertyRef Name="detailId" />
+    </Key>
+    <Property Name="detailId" Type="Int32" Nullable="false" />
+    <Property Name="goodsId" Type="Int32" />
+    <Property Name="goodsName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="orderId" Type="Int32" />
+    <Property Name="detailAoumt" Type="Double" />
+    <Property Name="quantity" Type="Double" />
+  </EntityType>
+  <EntityType Name="goods">
+    <Key>
+      <PropertyRef Name="goodsId" />
+    </Key>
+    <Property Name="goodsId" Type="Int32" Nullable="false" />
+    <Property Name="goodsName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Double" />
+  </EntityType>
+  <EntityType Name="orderservice">
+    <Key>
+      <PropertyRef Name="orderId" />
+    </Key>
+    <Property Name="orderId" Type="Int32" Nullable="false" />
+    <Property Name="custormerName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="orderAmount" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="homework8Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="details" EntityType="Self.details" />
+    <EntitySet Name="goods" EntityType="Self.goods" />
+    <EntitySet Name="orderservice" EntityType="Self.orderservice" />
+  </EntityContainer>
+</Schema>

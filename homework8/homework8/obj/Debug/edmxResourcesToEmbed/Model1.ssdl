@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="homework8Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="details">
+    <Key>
+      <PropertyRef Name="detailId" />
+    </Key>
+    <Property Name="detailId" Type="int" Nullable="false" />
+    <Property Name="goodsId" Type="int" />
+    <Property Name="goodsName" Type="varchar" MaxLength="255" />
+    <Property Name="orderId" Type="int" />
+    <Property Name="detailAoumt" Type="double" />
+    <Property Name="quantity" Type="double" />
+  </EntityType>
+  <EntityType Name="goods">
+    <Key>
+      <PropertyRef Name="goodsId" />
+    </Key>
+    <Property Name="goodsId" Type="int" Nullable="false" />
+    <Property Name="goodsName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="price" Type="double" />
+  </EntityType>
+  <EntityType Name="orderservice">
+    <Key>
+      <PropertyRef Name="orderId" />
+    </Key>
+    <Property Name="orderId" Type="int" Nullable="false" />
+    <Property Name="custormerName" Type="varchar" MaxLength="255" />
+    <Property Name="orderAmount" Type="double" />
+  </EntityType>
+  <EntityContainer Name="homework8ModelStoreContainer">
+    <EntitySet Name="details" EntityType="Self.details" Schema="homework8" store:Type="Tables" />
+    <EntitySet Name="goods" EntityType="Self.goods" Schema="homework8" store:Type="Tables" />
+    <EntitySet Name="orderservice" EntityType="Self.orderservice" Schema="homework8" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

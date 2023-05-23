@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="homework8ModelStoreContainer" CdmEntityContainer="homework8Entities1">
+    <EntitySetMapping Name="details">
+      <EntityTypeMapping TypeName="homework8Model.details">
+        <MappingFragment StoreEntitySet="details">
+          <ScalarProperty Name="detailId" ColumnName="detailId" />
+          <ScalarProperty Name="goodsId" ColumnName="goodsId" />
+          <ScalarProperty Name="goodsName" ColumnName="goodsName" />
+          <ScalarProperty Name="orderId" ColumnName="orderId" />
+          <ScalarProperty Name="detailAoumt" ColumnName="detailAoumt" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="goods">
+      <EntityTypeMapping TypeName="homework8Model.goods">
+        <MappingFragment StoreEntitySet="goods">
+          <ScalarProperty Name="goodsId" ColumnName="goodsId" />
+          <ScalarProperty Name="goodsName" ColumnName="goodsName" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orderservice">
+      <EntityTypeMapping TypeName="homework8Model.orderservice">
+        <MappingFragment StoreEntitySet="orderservice">
+          <ScalarProperty Name="orderId" ColumnName="orderId" />
+          <ScalarProperty Name="custormerName" ColumnName="custormerName" />
+          <ScalarProperty Name="orderAmount" ColumnName="orderAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
