@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="homework8Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="details">
+          <Key>
+            <PropertyRef Name="detailId" />
+          </Key>
+          <Property Name="detailId" Type="int" Nullable="false" />
+          <Property Name="goodsId" Type="int" />
+          <Property Name="goodsName" Type="varchar" MaxLength="255" />
+          <Property Name="orderId" Type="int" />
+          <Property Name="detailAoumt" Type="double" />
+          <Property Name="quantity" Type="double" />
+        </EntityType>
+        <EntityType Name="goods">
+          <Key>
+            <PropertyRef Name="goodsId" />
+          </Key>
+          <Property Name="goodsId" Type="int" Nullable="false" />
+          <Property Name="goodsName" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="price" Type="double" />
+        </EntityType>
+        <EntityType Name="orderservice">
+          <Key>
+            <PropertyRef Name="orderId" />
+          </Key>
+          <Property Name="orderId" Type="int" Nullable="false" />
+          <Property Name="custormerName" Type="varchar" MaxLength="255" />
+          <Property Name="orderAmount" Type="double" />
+        </EntityType>
+        <EntityContainer Name="homework8ModelStoreContainer">
+          <EntitySet Name="details" EntityType="Self.details" Schema="homework8" store:Type="Tables" />
+          <EntitySet Name="goods" EntityType="Self.goods" Schema="homework8" store:Type="Tables" />
+          <EntitySet Name="orderservice" EntityType="Self.orderservice" Schema="homework8" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="homework8Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="details">
+          <Key>
+            <PropertyRef Name="detailId" />
+          </Key>
+          <Property Name="detailId" Type="Int32" Nullable="false" />
+          <Property Name="goodsId" Type="Int32" />
+          <Property Name="goodsName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="orderId" Type="Int32" />
+          <Property Name="detailAoumt" Type="Double" />
+          <Property Name="quantity" Type="Double" />
+        </EntityType>
+        <EntityType Name="goods">
+          <Key>
+            <PropertyRef Name="goodsId" />
+          </Key>
+          <Property Name="goodsId" Type="Int32" Nullable="false" />
+          <Property Name="goodsName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="price" Type="Double" />
+        </EntityType>
+        <EntityType Name="orderservice">
+          <Key>
+            <PropertyRef Name="orderId" />
+          </Key>
+          <Property Name="orderId" Type="Int32" Nullable="false" />
+          <Property Name="custormerName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="orderAmount" Type="Double" />
+        </EntityType>
+        <EntityContainer Name="homework8Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="details" EntityType="Self.details" />
+          <EntitySet Name="goods" EntityType="Self.goods" />
+          <EntitySet Name="orderservice" EntityType="Self.orderservice" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="homework8ModelStoreContainer" CdmEntityContainer="homework8Entities1">
+          <EntitySetMapping Name="details">
+            <EntityTypeMapping TypeName="homework8Model.details">
+              <MappingFragment StoreEntitySet="details">
+                <ScalarProperty Name="detailId" ColumnName="detailId" />
+                <ScalarProperty Name="goodsId" ColumnName="goodsId" />
+                <ScalarProperty Name="goodsName" ColumnName="goodsName" />
+                <ScalarProperty Name="orderId" ColumnName="orderId" />
+                <ScalarProperty Name="detailAoumt" ColumnName="detailAoumt" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="goods">
+            <EntityTypeMapping TypeName="homework8Model.goods">
+              <MappingFragment StoreEntitySet="goods">
+                <ScalarProperty Name="goodsId" ColumnName="goodsId" />
+                <ScalarProperty Name="goodsName" ColumnName="goodsName" />
+                <ScalarProperty Name="price" ColumnName="price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="orderservice">
+            <EntityTypeMapping TypeName="homework8Model.orderservice">
+              <MappingFragment StoreEntitySet="orderservice">
+                <ScalarProperty Name="orderId" ColumnName="orderId" />
+                <ScalarProperty Name="custormerName" ColumnName="custormerName" />
+                <ScalarProperty Name="orderAmount" ColumnName="orderAmount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
